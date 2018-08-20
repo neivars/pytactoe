@@ -39,7 +39,7 @@ while True:
         print('Position already taken\n')
     except ValueError:
         print('\n=== ERROR ===================')
-        print('Please input a valid position number\n')
+        print('Please input a valid position\n')
     except IndexError:
         print('\n=== ERROR ===================')
         print('Position out of bounds of the board\n')
